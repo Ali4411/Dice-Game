@@ -51,7 +51,7 @@ button {
   -moz-border-radius: 60;
   border-radius: 60px;
   font-family:'Ma Shan Zheng', cursive;
-  color: #9C060C;
+  color: #4ECCA3;
   font-size: 100px;
   font-weight: bold;
   background: #ffffff;
@@ -60,6 +60,6 @@ button {
 }
 
 .btn:hover {
-  color: #9C060C;
+  color: #4ECCA3;
   text-decoration: none;
 }
