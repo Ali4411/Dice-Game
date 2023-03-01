@@ -23,7 +23,7 @@ function rollDice() {
 
 
     if (randomNumber1 > randomNumber2) {
-        document.querySelector("h1").textContent = "狮子大王 赢了!";
+        document.querySelector("h1").innerHTML = "狮子大王 <br> 赢了!";
         document.querySelector("h1").style.fontSize = "3rem";
     }
     else if (randomNumber1 < randomNumber2) {
