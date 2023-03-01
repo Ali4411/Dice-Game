@@ -24,15 +24,15 @@ function rollDice() {
 
     if (randomNumber1 > randomNumber2) {
         document.querySelector("h1").innerHTML = "🚩狮子大王 <br> 赢了!";
-        document.querySelector("h1").style.fontSize = "3rem";
+        document.querySelector("h1").style.fontSize = "4rem";
     }
     else if (randomNumber1 < randomNumber2) {
         document.querySelector("h1").innerHTML = "论江湖 🚩 <br> 赢了!";
-        document.querySelector("h1").style.fontSize = "3rem";
+        document.querySelector("h1").style.fontSize = "4rem";
     }
     else {
         document.querySelector("h1").textContent = "平手!";
-        document.querySelector("h1").style.fontSize = "3rem";
+        document.querySelector("h1").style.fontSize = "4rem";
     }
 
 }
